@@ -12,7 +12,7 @@ import Alamofire
 
 struct API_K {
 
-    static let ProdBaseUrlStr:String = "http://api.crystalmusic.co.uk/en/v0.1/api/"
+    static let ProdBaseUrlStr:String = "http://api"
     static let BaseURL = URL(string: ProdBaseUrlStr)!
     
     
@@ -29,14 +29,8 @@ struct API_K {
     
     
     // hader Data
-    static let API_CLIENT_KEY = "API-CLIENT"
-    static let API_CLIENT_VALUE = "api"
-    static let AUTH_TOKEN_KEY = "AUTH-TOKEN"
-    static let ACCEPT_KEY = "Accept"
-    static let ACCEPT_VALUE = "application/json"
-    static let AUTH_TOKEN_VALUE = "5361516a0a3e3d864cfc848affdb9246"
-    static let AUTHORIZAION_KEY = "Authorization"
-
+    static let API_CLIENT_KEY = ""
+  
     
     
     

@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        webRequestForLoginAPI(username:"IM2018",password:"IMRANkhan123456")
+        webRequestForLoginAPI(username:"",password:"")
     }
     
     
